@@ -1,0 +1,14 @@
+// Author       : Xuemin Zhao <xmzhao1986@gmail.com>
+// Created Time : 2013-03-24
+// Description  :
+
+package mvaam;
+
+message PointPB {
+  optional double x = 1;
+  optional double y = 2;
+}
+
+message ShapePB {
+  repeated PointPB points = 1;
+}
